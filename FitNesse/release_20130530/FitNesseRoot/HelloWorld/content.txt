@@ -1,0 +1,7 @@
+!define COMMAND_PATTERN {%m -r fitnesse.fitserver.FitServer,fitSharp\release.2.2.net.40\fit.dll %p}
+!define TEST_RUNNER {fitSharp\release.2.2.net.40\Runner.exe}
+!path C:\inetpub\wwwroot\MriApps\Solutions\Mri.Tests\Apps.Tests\bin\Debug\Apps._IntegrationTests.dll
+
+!|Apps._IntegrationTests.HelloWorldFitNesseTests|
+|string1|string2|TestStringConcatenation?|
+|Hello|World|Hello World|
